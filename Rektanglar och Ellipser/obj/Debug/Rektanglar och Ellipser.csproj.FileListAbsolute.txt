@@ -1,0 +1,7 @@
+C:\Users\Mr.X\Documents\Projects\Rektanglar_Ellipser\Rektanglar och Ellipser\obj\Debug\Rektanglar och Ellipser.csprojAssemblyReference.cache
+C:\Users\Mr.X\Documents\Projects\Rektanglar_Ellipser\Rektanglar och Ellipser\obj\Debug\Rektanglar och Ellipser.csproj.CoreCompileInputs.cache
+C:\Users\Mr.X\Documents\Projects\Rektanglar_Ellipser\Rektanglar och Ellipser\bin\Debug\Rektanglar och Ellipser.exe.config
+C:\Users\Mr.X\Documents\Projects\Rektanglar_Ellipser\Rektanglar och Ellipser\bin\Debug\Rektanglar och Ellipser.exe
+C:\Users\Mr.X\Documents\Projects\Rektanglar_Ellipser\Rektanglar och Ellipser\bin\Debug\Rektanglar och Ellipser.pdb
+C:\Users\Mr.X\Documents\Projects\Rektanglar_Ellipser\Rektanglar och Ellipser\obj\Debug\Rektanglar och Ellipser.exe
+C:\Users\Mr.X\Documents\Projects\Rektanglar_Ellipser\Rektanglar och Ellipser\obj\Debug\Rektanglar och Ellipser.pdb
