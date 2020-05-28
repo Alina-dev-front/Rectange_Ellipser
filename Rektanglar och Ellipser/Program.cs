@@ -1,11 +1,5 @@
 ﻿using System;
-using System.CodeDom;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Rektanglar_och_Ellipser
 {
@@ -29,20 +23,17 @@ namespace Rektanglar_och_Ellipser
             return new Ellipse();
         }
 
-
         static void Main(string[] args)
         {
             Console.WriteLine("Shape Parameter´s Calculator in C#\r");
             Menu();
             string inputValue = Console.ReadLine();
-
             while (inputValue != "q")
             {
                 switch (inputValue)
                 {
                     case "1":
                         var parametersRectangle = GetDataFromUser();
-     
                         Shape rectangle = CreateShape(ShapeType.Rectangle);
                         rectangle.Length = parametersRectangle[0];
                         rectangle.Width = parametersRectangle[1];
@@ -67,12 +58,10 @@ namespace Rektanglar_och_Ellipser
             }
         }
 
-
         public static void ViewShapeInfo(Shape shape)
         {
             Console.WriteLine(shape.ToString());
             Menu();
-            
         }
 
         public static void Menu()
@@ -90,7 +79,7 @@ namespace Rektanglar_och_Ellipser
             List<double> parameters = new List<double>();
             foreach (string name in paramNames)
             {
-                parameters.Add(CheckParameters(name));
+                parameters.Add(GetCheckedParameters(name));
             }
             return parameters;
         }
@@ -121,7 +110,6 @@ namespace Rektanglar_och_Ellipser
                 }
             }
             return 0;
-
         }
     }
 }

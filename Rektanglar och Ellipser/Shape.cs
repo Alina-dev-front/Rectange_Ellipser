@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Rektanglar_och_Ellipser
 {
@@ -61,7 +58,6 @@ namespace Rektanglar_och_Ellipser
                 "\n Bredd: " + Width + 
                 "\n Omkrets: " + Perimeter + 
                 "\n Area: " + Area;
-
             return result;
         }
     }
